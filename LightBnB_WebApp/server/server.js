@@ -31,7 +31,7 @@ app.use('/users', userRouter);
 app.use(express.static(path.join(__dirname, '../public')));
 
 app.get("/test", (req, res) => {
-  res.send("🤗");
+  res.send("^6^");
 });
 
 const port = process.env.PORT || 3000; 
