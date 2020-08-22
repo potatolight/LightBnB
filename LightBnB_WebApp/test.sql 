@@ -1,0 +1,4 @@
+  SELECT properties.id, properties.title, properties.city
+  FROM properties
+  JOIN property_reviews ON properties.id = property_id
+  WHERE city like `%urr%`;
